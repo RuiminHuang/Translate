@@ -1,0 +1,19 @@
+{
+    "name": "Translate",
+    "version": "0.0.0",
+    "description": "This is just for test the chinese",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "translate.ts",
+        "_locales/zh/strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false
+}
