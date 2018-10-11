@@ -147,7 +147,7 @@ namespace BME280 {
      */
     //% blockId="BME280_FORCE_MODE" block="force mode on"
     //% weight=61 blockGap=8
-    export function forceMode() {
+    export function ForceMode() {
         setreg(0xF4, 0x2F)
     }
 
@@ -156,7 +156,7 @@ namespace BME280 {
      */
     //% blockId="BME280_NORMAL_MODE" block="normal mode on"
     //% weight=60 blockGap=8
-    export function normalMode() {
+    export function NormalMode() {
         setreg(0xF4, 0)
     }
 
@@ -165,7 +165,7 @@ namespace BME280 {
      */
     //% blockId="BME280_SET_ADDRESS" block="set bme280 device address %addr"
     //% weight=50 blockGap=8
-    export function setAddress(addr: BME280_I2C_ADDRESS) {
+    export function SetAddress(addr: BME280_I2C_ADDRESS) {
         BME280_I2C_ADDR = addr
     }
 }
